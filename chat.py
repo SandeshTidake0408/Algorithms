@@ -4,7 +4,7 @@ import random
 
 
 knowledge_base = {
-    "hello": ["Hello! How can I assist you today?"],
+    "hello": ["Hello! How can I assist you today?", "Hi there"],
     "bye": ["Bye Sir , Have a nice day !"],
     "create account": ["Sure, I can help you with that. Here are the steps..."],
     # Add more messages and responses as needed
@@ -28,4 +28,4 @@ def get_response(user_input):
 
 
 # Test the bot
-print(get_response("bye"))
+print(get_response("hello"))
